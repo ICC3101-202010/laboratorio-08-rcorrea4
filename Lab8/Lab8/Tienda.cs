@@ -8,11 +8,11 @@ namespace Lab8
 {
     class Tienda:LocalComercial
     {
-        public List<string> categorias;
+        public List<string> categorias=new List<string>();
 
-        public Tienda(string ownerName, int id, string horario,List<string> categorias):base(ownerName, id, horario)
+        public Tienda(string ownerName, int id, string horario):base(ownerName, id, horario)
         {
-            this.categorias = categorias;
+            
         }
     }
 }

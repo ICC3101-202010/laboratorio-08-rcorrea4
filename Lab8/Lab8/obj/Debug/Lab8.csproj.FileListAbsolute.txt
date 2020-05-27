@@ -1,0 +1,10 @@
+C:\Users\corre\OneDrive\Escritorio\P.O.O. 20-01\laboratorio-08-rcorrea4\Lab8\Lab8\bin\Debug\Lab8.exe.config
+C:\Users\corre\OneDrive\Escritorio\P.O.O. 20-01\laboratorio-08-rcorrea4\Lab8\Lab8\bin\Debug\Lab8.exe
+C:\Users\corre\OneDrive\Escritorio\P.O.O. 20-01\laboratorio-08-rcorrea4\Lab8\Lab8\bin\Debug\Lab8.pdb
+C:\Users\corre\OneDrive\Escritorio\P.O.O. 20-01\laboratorio-08-rcorrea4\Lab8\Lab8\obj\Debug\Lab8.csprojAssemblyReference.cache
+C:\Users\corre\OneDrive\Escritorio\P.O.O. 20-01\laboratorio-08-rcorrea4\Lab8\Lab8\obj\Debug\Lab8.Form1.resources
+C:\Users\corre\OneDrive\Escritorio\P.O.O. 20-01\laboratorio-08-rcorrea4\Lab8\Lab8\obj\Debug\Lab8.Properties.Resources.resources
+C:\Users\corre\OneDrive\Escritorio\P.O.O. 20-01\laboratorio-08-rcorrea4\Lab8\Lab8\obj\Debug\Lab8.csproj.GenerateResource.cache
+C:\Users\corre\OneDrive\Escritorio\P.O.O. 20-01\laboratorio-08-rcorrea4\Lab8\Lab8\obj\Debug\Lab8.csproj.CoreCompileInputs.cache
+C:\Users\corre\OneDrive\Escritorio\P.O.O. 20-01\laboratorio-08-rcorrea4\Lab8\Lab8\obj\Debug\Lab8.exe
+C:\Users\corre\OneDrive\Escritorio\P.O.O. 20-01\laboratorio-08-rcorrea4\Lab8\Lab8\obj\Debug\Lab8.pdb
