@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.panelEntrada = new System.Windows.Forms.Panel();
             this.buttonVer = new System.Windows.Forms.Button();
@@ -49,10 +50,10 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.panelRevisar = new System.Windows.Forms.Panel();
-            this.comboBoxLocales = new System.Windows.Forms.ComboBox();
-            this.buttonVerInfo = new System.Windows.Forms.Button();
-            this.buttonAtras2 = new System.Windows.Forms.Button();
             this.buttonVerTodos = new System.Windows.Forms.Button();
+            this.buttonAtras2 = new System.Windows.Forms.Button();
+            this.buttonVerInfo = new System.Windows.Forms.Button();
+            this.comboBoxLocales = new System.Windows.Forms.ComboBox();
             this.panelEntrada.SuspendLayout();
             this.panelAgregar.SuspendLayout();
             this.panelAtributo.SuspendLayout();
@@ -71,18 +72,19 @@
             // 
             // panelEntrada
             // 
+            this.panelEntrada.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelEntrada.BackgroundImage")));
             this.panelEntrada.Controls.Add(this.buttonVer);
             this.panelEntrada.Controls.Add(this.buttonAgregar);
-            this.panelEntrada.Location = new System.Drawing.Point(29, 77);
+            this.panelEntrada.Location = new System.Drawing.Point(-5, 66);
             this.panelEntrada.Name = "panelEntrada";
-            this.panelEntrada.Size = new System.Drawing.Size(554, 269);
+            this.panelEntrada.Size = new System.Drawing.Size(599, 293);
             this.panelEntrada.TabIndex = 1;
             this.panelEntrada.Paint += new System.Windows.Forms.PaintEventHandler(this.panelEntrada_Paint);
             // 
             // buttonVer
             // 
             this.buttonVer.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonVer.Location = new System.Drawing.Point(310, 78);
+            this.buttonVer.Location = new System.Drawing.Point(343, 75);
             this.buttonVer.Name = "buttonVer";
             this.buttonVer.Size = new System.Drawing.Size(172, 112);
             this.buttonVer.TabIndex = 1;
@@ -93,7 +95,7 @@
             // buttonAgregar
             // 
             this.buttonAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonAgregar.Location = new System.Drawing.Point(71, 78);
+            this.buttonAgregar.Location = new System.Drawing.Point(81, 75);
             this.buttonAgregar.Name = "buttonAgregar";
             this.buttonAgregar.Size = new System.Drawing.Size(172, 112);
             this.buttonAgregar.TabIndex = 0;
@@ -113,9 +115,9 @@
             this.panelAgregar.Controls.Add(this.textBoxNd);
             this.panelAgregar.Controls.Add(this.labelND);
             this.panelAgregar.Controls.Add(this.comboBox1);
-            this.panelAgregar.Location = new System.Drawing.Point(29, 66);
+            this.panelAgregar.Location = new System.Drawing.Point(15, 66);
             this.panelAgregar.Name = "panelAgregar";
-            this.panelAgregar.Size = new System.Drawing.Size(551, 277);
+            this.panelAgregar.Size = new System.Drawing.Size(565, 277);
             this.panelAgregar.TabIndex = 2;
             this.panelAgregar.Visible = false;
             // 
@@ -246,6 +248,7 @@
             // 
             // panelRevisar
             // 
+            this.panelRevisar.BackColor = System.Drawing.SystemColors.Control;
             this.panelRevisar.Controls.Add(this.buttonVerTodos);
             this.panelRevisar.Controls.Add(this.buttonAtras2);
             this.panelRevisar.Controls.Add(this.buttonVerInfo);
@@ -255,35 +258,6 @@
             this.panelRevisar.Size = new System.Drawing.Size(568, 281);
             this.panelRevisar.TabIndex = 2;
             this.panelRevisar.Visible = false;
-            // 
-            // comboBoxLocales
-            // 
-            this.comboBoxLocales.FormattingEnabled = true;
-            this.comboBoxLocales.Location = new System.Drawing.Point(64, 48);
-            this.comboBoxLocales.Name = "comboBoxLocales";
-            this.comboBoxLocales.Size = new System.Drawing.Size(121, 21);
-            this.comboBoxLocales.TabIndex = 0;
-            this.comboBoxLocales.SelectedIndexChanged += new System.EventHandler(this.comboBoxLocales_SelectedIndexChanged);
-            // 
-            // buttonVerInfo
-            // 
-            this.buttonVerInfo.Location = new System.Drawing.Point(219, 50);
-            this.buttonVerInfo.Name = "buttonVerInfo";
-            this.buttonVerInfo.Size = new System.Drawing.Size(113, 23);
-            this.buttonVerInfo.TabIndex = 1;
-            this.buttonVerInfo.Text = "Ver";
-            this.buttonVerInfo.UseVisualStyleBackColor = true;
-            this.buttonVerInfo.Click += new System.EventHandler(this.buttonVerInfo_Click);
-            // 
-            // buttonAtras2
-            // 
-            this.buttonAtras2.Location = new System.Drawing.Point(64, 221);
-            this.buttonAtras2.Name = "buttonAtras2";
-            this.buttonAtras2.Size = new System.Drawing.Size(67, 38);
-            this.buttonAtras2.TabIndex = 15;
-            this.buttonAtras2.Text = "Atras";
-            this.buttonAtras2.UseVisualStyleBackColor = true;
-            this.buttonAtras2.Click += new System.EventHandler(this.buttonAtras2_Click);
             // 
             // buttonVerTodos
             // 
@@ -295,15 +269,44 @@
             this.buttonVerTodos.UseVisualStyleBackColor = true;
             this.buttonVerTodos.Click += new System.EventHandler(this.buttonVerTodos_Click);
             // 
+            // buttonAtras2
+            // 
+            this.buttonAtras2.Location = new System.Drawing.Point(64, 221);
+            this.buttonAtras2.Name = "buttonAtras2";
+            this.buttonAtras2.Size = new System.Drawing.Size(67, 38);
+            this.buttonAtras2.TabIndex = 15;
+            this.buttonAtras2.Text = "Atras";
+            this.buttonAtras2.UseVisualStyleBackColor = true;
+            this.buttonAtras2.Click += new System.EventHandler(this.buttonAtras2_Click);
+            // 
+            // buttonVerInfo
+            // 
+            this.buttonVerInfo.Location = new System.Drawing.Point(219, 50);
+            this.buttonVerInfo.Name = "buttonVerInfo";
+            this.buttonVerInfo.Size = new System.Drawing.Size(113, 23);
+            this.buttonVerInfo.TabIndex = 1;
+            this.buttonVerInfo.Text = "Ver";
+            this.buttonVerInfo.UseVisualStyleBackColor = true;
+            this.buttonVerInfo.Click += new System.EventHandler(this.buttonVerInfo_Click);
+            // 
+            // comboBoxLocales
+            // 
+            this.comboBoxLocales.FormattingEnabled = true;
+            this.comboBoxLocales.Location = new System.Drawing.Point(64, 48);
+            this.comboBoxLocales.Name = "comboBoxLocales";
+            this.comboBoxLocales.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxLocales.TabIndex = 0;
+            this.comboBoxLocales.SelectedIndexChanged += new System.EventHandler(this.comboBoxLocales_SelectedIndexChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(595, 359);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.panelRevisar);
             this.Controls.Add(this.panelEntrada);
             this.Controls.Add(this.panelAgregar);
+            this.Controls.Add(this.panelRevisar);
             this.Name = "Form1";
             this.Text = "Form1";
             this.panelEntrada.ResumeLayout(false);
